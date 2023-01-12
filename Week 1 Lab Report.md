@@ -8,7 +8,7 @@ First visit the following link, https://code.visualstudio.com/, and follow steps
 
 ![Alt text](https://github.com/stevpony/cse15l-lab-reports/blob/305bac610a24431970adef35fc1486762e4a2dca/Screenshot%202023-01-12%20at%203.09.29%20PM.png)
 
-I had previously downloaded VScode for a previous program, so I had skipped this step.
+I had previously downloaded VScode for a different program, so I skipped this step.
 
 
 ## STEP 2: Remotely Connecting
