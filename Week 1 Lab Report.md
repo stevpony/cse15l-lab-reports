@@ -6,7 +6,7 @@
 
 First visit the following link, https://code.visualstudio.com/, and follow steps to install on your own computer. I have a Mac computer, so I followed the corresponding steps. After installing and opening VScode, your screen should look like this:
 
-![Alt text](https://github.com/stevpony/cse15l-lab-reports/blob/02676357ab55f1579cba1423b7d21b96a53dc3a2/Screenshot%202023-01-12%20at%203.09.29%20PM.png)
+![Alt text](Screenshot 2023-01-12 at 3.09.29 PM.png)
 
 I had previously downloaded VScode for a different program, so I skipped this first step for the lab.
 
@@ -27,7 +27,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
 Go ahead and type "yes." Then, type in your password, and you should be connected. If your password is asked for again, you have inputted it wrong, and may need to try again. After successfully connecting to the remote server, this is what your screen should look like:
 
-![Alt text](https://github.com/stevpony/cse15l-lab-reports/blob/02676357ab55f1579cba1423b7d21b96a53dc3a2/Screenshot%202023-01-12%20at%203.09.57%20PM.png)
+![Alt text](Screenshot 2023-01-12 at 3.09.57 PM.png)
 
 ## STEP 3: Running Commands
 
@@ -47,6 +47,6 @@ I messed around with the commands for a bit, and each time you type a new comman
 
 I used the command `$ ls /home/linux/ieng6/cs15lwi23/cs15lwi23air`, which shows me the list of files in my own account directory. I then tried `$ ls /home/linux/ieng6/cs15lwi23/cs15lwi23ajm`, the command to show the list of files in another account directory, which I was unable to view as I did not have permission. The command `$ cat /home/linux/ieng6/cs15lwi23/public/hello.txt` prints out the contents of the hello.txt file, "Hello! Welcome to CSE 15L."
 
-![Alt text](https://github.com/stevpony/cse15l-lab-reports/blob/43a4d6b8903c11ad101c05e31b1d88861203a4db/Screenshot%202023-01-12%20at%203.10.08%20PM.png)
+![Alt text](Screenshot 2023-01-12 at 3.10.08 PM.png)
 
 After completing all these steps, simply use Control + D to exit from the remote server.
