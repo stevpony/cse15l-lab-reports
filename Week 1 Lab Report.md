@@ -4,7 +4,7 @@
 
 ## STEP 1: Install Visual Studio Code
 
-First visit the following link, (https://code.visualstudio.com/), and follow steps to install on your own computer. I have a Mac computer, so I followed the corresponding steps. After installing and opening VScode, your screen should look like this:
+First visit the following link, [https://code.visualstudio.com/](https://code.visualstudio.com/), and follow steps to install on your own computer. I have a Mac computer, so I followed the corresponding steps. After installing and opening VScode, your screen should look like this:
 
 ![Alt text](Screenshot 2023-01-12 at 3.09.29 PM.png)
 
