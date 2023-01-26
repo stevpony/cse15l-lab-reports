@@ -4,7 +4,7 @@
 
 ## STEP 1: Install Visual Studio Code
 
-First visit the following link, https://code.visualstudio.com/, and follow steps to install on your own computer. I have a Mac computer, so I followed the corresponding steps. After installing and opening VScode, your screen should look like this:
+First visit the following link, (https://code.visualstudio.com/), and follow steps to install on your own computer. I have a Mac computer, so I followed the corresponding steps. After installing and opening VScode, your screen should look like this:
 
 ![Alt text](Screenshot 2023-01-12 at 3.09.29 PM.png)
 
@@ -33,15 +33,14 @@ Go ahead and type "yes." Then, type in your password, and you should be connecte
 
 Here are a list of commands to copy or type into the terminal: 
 
-```
-$ cd ~
-$ cd
-$ ls -lat
-$ ls -a
-$ ls /home/linux/ieng6/cs15lwi23/cs15lwi23air
-$ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-$ cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-```
+```$ cd```: changing the current directory
+```$ cd ~```: navigating to the home directory (~)
+```$ ls```: lists contents of the current directory
+```$ ls -lat```: lists contents of current directory with details: time, ownership, etc
+```$ ls -a```: lists contents of current directory and parent directory
+```$ ls /home/linux/ieng6/cs15lwi23/cs15lwi23air```: lists contents of the given ieng6 path, under cs15lwi23 and user cs15wi23air
+```$ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/```: copies the hello.txt file through the given path
+```$ cat /home/linux/ieng6/cs15lwi23/public/hello.txt```: prints the contents of the hello.txt file through the given path
 
 I messed around with the commands for a bit, and each time you type a new command into the terminal it will display the numbered command that you tried (can be seen in the screenshot below, `[cs15lwi23abc@ieng6-201]:~:XX`, where the XX denotes the numbered command).
 
