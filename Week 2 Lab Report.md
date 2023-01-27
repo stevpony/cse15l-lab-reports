@@ -2,7 +2,7 @@
 
 ## PART 1 ##
 
-StringServer.java code
+### StringServer.java code ###
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -39,11 +39,7 @@ class NumberServer {
     }
 }
 ```
-
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-
+### Running the Server ###
 
 ![Alt text](Screenshot 2023-01-27 at 1.49.41 PM.png)
 
@@ -51,22 +47,16 @@ First, NumberServer.java is called, which runs the main method. The main method 
 
 Back in the StringServer.java file, a StringBuilder object ```message``` is created and method handleRequest() is called, which takes in the server URL as a URI object and analyzes it. The URL is analyzed in two different pieces: the path and the query. The path (after the hostname and before the  "?") is checked to see if contains any instruction/strings of relevance; in this case, searching for "add-message." If the path contains the previous string, it will then search the query (after the "?") for the string to add to the message field, as well as a new line ```\n``` to start the next added string on a following line.
 
+
 ![Alt text](Screenshot 2023-01-27 at 1.49.50 PM.png)
 
 This screenshot carries out very similarly to the previous one; the only difference here is in the URI value and message field value that is changed. The query is changed in the server URL, and the entered/to-be-added string is changed (the part following the ```s=```). Additionally, in the message field, instead of replacing the current value in the StringBuilder object, it adds another string and new line.
 
 ## PART 2 ##
 
-Provide:
-
-A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-
 Looking at the ArrayExamples.java method, the reverseInPlace() method has a bug. The methoud should take an array and reverse all the items in it. For example, an input of {1, 2, 3} should output {3, 2, 1}.
 
-#### Failure inducing input ####
+### Failure inducing input ###
 
 ```
 @Test 
@@ -77,7 +67,7 @@ Looking at the ArrayExamples.java method, the reverseInPlace() method has a bug.
 	}
 ```
 
-#### Input that doesn't induce a failure ####
+### Input that doesn't induce a failure ###
 
 ```
 @Test 
@@ -88,7 +78,7 @@ Looking at the ArrayExamples.java method, the reverseInPlace() method has a bug.
 	}
 ```
 
-#### Symptom ####
+### Symptom ###
 
 ![Alt text](Screenshot 2023-01-27 at 3.25.20 PM.png)
 ![Alt text](Screenshot 2023-01-27 at 3.27.20 PM.png)
@@ -96,7 +86,7 @@ Looking at the ArrayExamples.java method, the reverseInPlace() method has a bug.
 As shown above, the first test, which tests the input array {1, 2, 3} differs at index 2, where 1 is expected but 3 is the actual result.
 The second test, however, which tests the input aray {1, 2, 1} works as expected.
 
-#### Bug ####
+### Bug ###
 
 Before:
 ```
