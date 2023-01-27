@@ -60,22 +60,22 @@ Looking at the ArrayExamples.java method, the reverseInPlace() method has a bug.
 
 ```
 @Test 
-	public void testReverseInPlace2() {
+public void testReverseInPlace2() {
     int[] input = {1, 2, 3};
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(new int[]{3, 2, 1}, input);
-	}
+}
 ```
 
 ### Input that doesn't induce a failure ###
 
 ```
 @Test 
-	public void testReverseInPlace3() {
+public void testReverseInPlace3() {
     int[] input = {1, 2, 1};
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(new int[]{1, 2, 1}, input);
-	}
+}
 ```
 
 ### Symptom ###
