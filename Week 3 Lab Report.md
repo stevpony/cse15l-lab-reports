@@ -54,7 +54,7 @@ written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 ```
 
 ### Limit Depth of Results ###
-```find [path] -maxdepth [depth]``` will search only within a given depth. This is useful if you are looking to only search within x number of directories within a given path, if you don't want to look recursively into every single one availab.e
+```find [path] -maxdepth [depth]``` will search only within a given depth. This is useful if you are looking to only search within x number of directories within a given path, if you don't want to look recursively into every single one available
 
 Searching for files with a depth of 1:
 ```
