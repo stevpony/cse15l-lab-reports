@@ -93,4 +93,4 @@ $ find written_2/ -ipath "*berlitz1"
 written_2//travel_guides/berlitz1
 ```
 
-*All commands found on [https://www.redhat.com/sysadmin/linux-find-command]([https://www.google.co](https://www.redhat.com/sysadmin/linux-find-command)*
+*All commands found on [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)*
