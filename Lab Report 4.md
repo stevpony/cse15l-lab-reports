@@ -15,7 +15,7 @@ ssh cs15lwi23air@ieng6.ucsd.edu ```<enter>```
 
 #### Keys pressed: ####
 
-git clone ```<command V> <enter>```
+git clone ```<command V><enter>```
 
 _The link from forked repository was already copied, so I simply pasted it into the terminal to clone it._
 
