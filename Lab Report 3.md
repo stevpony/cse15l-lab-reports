@@ -1,4 +1,4 @@
-# WEEK 3 LAB REPORT #
+# LAB REPORT 3 #
 
 ## FIND COMMAND ##
 
