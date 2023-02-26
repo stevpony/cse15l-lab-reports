@@ -7,7 +7,8 @@
 #### Keys pressed: ####
 
 ssh cs15lwi23air@ieng6.ucsd.edu ```<enter>```
-- I typed out the login command to the ieng6 server. I was automatically logged in, since I had set up a key previously.
+
+_I typed out the login command to the ieng6 server. I was automatically logged in, since I had set up a key previously._
 
 ### STEP 5 ###
 
