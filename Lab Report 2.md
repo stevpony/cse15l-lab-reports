@@ -1,4 +1,4 @@
-# WEEK 2 LAB REPORT
+# LAB REPORT 2
 
 ## PART 1 ##
 
